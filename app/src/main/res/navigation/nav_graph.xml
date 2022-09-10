@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/noteListFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="com.ahmed_badr.to_do_manager.ui.elements.fragments.NoteListFragment"
+        android:label="@string/fragment_note_list"
+        tools:layout="@layout/fragment_note_list">
+        <action
+            android:id="@+id/action_noteListFragment_to_noteViewFragment"
+            app:destination="@id/noteViewFragment" />
+        <action
+            android:id="@+id/action_noteListFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteViewFragment"
+        android:name="com.ahmed_badr.to_do_manager.ui.elements.fragments.NoteViewFragment"
+        android:label="@string/fragment_note_view"
+        tools:layout="@layout/fragment_note_view" >
+
+        <action
+            android:id="@+id/action_noteViewFragment_to_noteEditFragment"
+            app:destination="@id/noteEditFragment" />
+        <action
+            android:id="@+id/action_noteViewFragment_to_noteListFragment"
+            app:destination="@id/noteListFragment" />
+        <argument
+            android:name="note"
+            app:argType="com.ahmed_badr.to_do_manager.data.models.Note" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteEditFragment"
+        android:name="com.ahmed_badr.to_do_manager.ui.elements.fragments.NoteEditFragment"
+        android:label="@string/fragment_note_edit"
+        tools:layout="@layout/fragment_note_edit" >
+        <action
+            android:id="@+id/action_noteEditFragment_to_noteViewFragment"
+            app:destination="@id/noteViewFragment" />
+        <argument
+            android:name="note"
+            app:argType="com.ahmed_badr.to_do_manager.data.models.Note" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.ahmed_badr.to_do_manager.ui.elements.fragments.AddNoteFragment"
+        android:label="fragment_add_note"
+        tools:layout="@layout/fragment_add_note" >
+        <action
+            android:id="@+id/action_addNoteFragment_to_noteListFragment"
+            app:destination="@id/noteListFragment" />
+        <action
+            android:id="@+id/action_addNoteFragment_to_noteViewFragment"
+            app:destination="@id/noteViewFragment" />
+    </fragment>
+</navigation>

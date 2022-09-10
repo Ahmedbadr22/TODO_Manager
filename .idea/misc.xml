@@ -3,12 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.226" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/drawable/ic_note.xml" value="0.215" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/drawable/ic_welcome_cats.xml" value="0.226" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/drawable/item_note.xml" value="0.215" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/drawable/shape_circle.xml" value="0.215" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/activity_authentication.xml" value="0.18683197947840957" />
         <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/activity_main.xml" value="0.22760416666666666" />
-        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_note_edit.xml" value="0.24166666666666667" />
-        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_note_list.xml" value="0.22760416666666666" />
-        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_note_view.xml" value="0.24166666666666667" />
-        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_sign_in.xml" value="0.22760416666666666" />
-        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_splash_screen.xml" value="0.24166666666666667" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/activity_splash_screen.xml" value="0.18683197947840957" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_add_note.xml" value="0.19837537409149208" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_note_edit.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_note_list.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_note_view.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_sign_in.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/fragment_splash_screen.xml" value="0.19837537409149208" />
+        <entry key="..\:/AndroidProjects/TODOManager/app/src/main/res/layout/item_note.xml" value="0.33847980997624705" />
       </map>
     </option>
   </component>

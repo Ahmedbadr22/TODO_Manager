@@ -14,7 +14,13 @@
         android:theme="@style/Theme.TODOManager"
         tools:targetApi="31">
         <activity
+            android:name=".ui.elements.activity.AuthenticationActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.elements.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.elements.activity.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
