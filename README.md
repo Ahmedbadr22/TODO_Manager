@@ -19,14 +19,14 @@ You need a intetner connection and Google account, which you are going to use in
 
 ## About
 
-wallabag has been made for you to comfortably read and archive your articles.
-You can download wallabag from wallabag.org and follow the instructions to install it on your own server.
-Alternatively, you can directly sign up for [wallabag.it](https://wallabag.it).
+TO-DO Manager has been made for you to comfortably manage your notes.
+<br>
+You can't download TO-DO Manager from Play Store Until be publised, But in the near future the app will be published.
+<br/>
+This android application allows you to put a link in your Read, Delete, Add and Update Notes.
 
-This android application allows you to put a link in your wallabag instance, letting you read your wallabag links offline.
+This application was originally created by **Ahmed badr**.
 
-This application was originally created by Jonathan GAULUPEAU and released under the GNU GPLv3.
-wallabag is a creation from Nicolas Lœuillet released under the MIT License (Expat License).
 
 ## Features
 
