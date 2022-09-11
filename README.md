@@ -31,6 +31,7 @@ This application was originally created by **Ahmed badr**.
 ## Features
 
 The app lets you:
+- Login with Google account
 - Add Notes.
 - Delete Notes.
 - Edit Notes.
